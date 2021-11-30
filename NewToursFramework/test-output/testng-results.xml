@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready!]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done- Test can be started!]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and Getting application ready!]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running!]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Reports Generated!]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20950" started-at="2021-11-29T11:45:45Z" finished-at="2021-11-29T11:46:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20950" started-at="2021-11-29T11:45:45Z" finished-at="2021-11-29T11:46:06Z">
+      <class name="com.newtours.testcases.LoginNewTours">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.newtours.testcases.LoginNewTours@33afa13b]" name="setupSuite" is-config="true" duration-ms="476" started-at="2021-11-29T19:45:45Z" finished-at="2021-11-29T19:45:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready!]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done- Test can be started!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.newtours.testcases.LoginNewTours@33afa13b]" name="setup" is-config="true" duration-ms="6989" started-at="2021-11-29T19:45:45Z" finished-at="2021-11-29T19:45:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and Getting application ready!]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApplication()[pri:1, instance:com.newtours.testcases.LoginNewTours@33afa13b]" name="loginApplication" duration-ms="11943" started-at="2021-11-29T19:45:52Z" finished-at="2021-11-29T19:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.newtours.testcases.LoginNewTours@33afa13b]" name="tearDownMethod" is-config="true" duration-ms="1304" started-at="2021-11-29T19:46:04Z" finished-at="2021-11-29T19:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplication status=SUCCESS method=LoginNewTours.loginApplication()[pri:1, instance:com.newtours.testcases.LoginNewTours@33afa13b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Reports Generated!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.newtours.testcases.LoginNewTours@33afa13b]" name="tearDown" is-config="true" duration-ms="697" started-at="2021-11-29T19:46:06Z" finished-at="2021-11-29T19:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtours.testcases.LoginNewTours -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
